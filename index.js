@@ -13,8 +13,20 @@ The function should:
   2. Create and return an object using the received values  
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
+//What are we trying to do
+//we need to give the problem data values it will recieve- Name, Price, Category
+//we need to actually create the new const., 
+//this will need to recieve the data, name, price, and category
+//we need to return the data to the user
+
+function createMenuItem(name, price, category){
+    newFunction();
+
+  function newFunction() {
+    this.name = name;
+    this.price = price;
+    this.category = category;
+  }
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
