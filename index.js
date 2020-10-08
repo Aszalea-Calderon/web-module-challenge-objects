@@ -265,6 +265,8 @@ function getLastReview(reviews) {
 } 
 console.log(getLastReview("Reyna", "3.5", "this place is chill with really cool people, great for getting work done on weekdays" ));
 
+
+
 // function getLastReview(reviews, index){
 //   return `${reviews..name} gave the restaurant a ${reviews[lastIndex].rating} star review, and their feedback was: ${reviews[lastIndex].feedback}`;
 // }
